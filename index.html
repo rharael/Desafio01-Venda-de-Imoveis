@@ -15,11 +15,40 @@
 </head>
 <body>
 	<header>
-		<div class="header">
+		<div class="header-container">
 			<img class="logo" src="./assets/img/logo.png" alt="Logo da empresa">
 			<h3>Agência Batatinha</h3>
 		</div>
-
 	</header>
+	<main class="container">
+		<!-- Login Form -->
+		<div class="login-section">
+			<form action="" class="login-form">
+				<h2>Entre com seu email e senha</h2>
+				<div class="input">
+					<input type="email" id="email" placeholder="Email">
+				</div>
+				<div class="input">
+					<input type="password" id="password" placeholder="Senha" required minlength="8">
+				</div>
+				<div class="login-check">Todos os campos são obrigatórios</div>
+				<button type="submit" class="submit-btn">Entrar</button>
+
+				<p>Não possui uma conta? <a href="#">Criar</a></p>
+			</form>
+		</div>
+
+		<div class="division"></div>
+
+		<!-- Image -->
+		 <div class="image-section">
+			<img src="./assets/img/login_picture.png" alt="Imagem de uma casa">
+			<div class="image-text">
+				<h1>Bem-vindo à agência Batatinha</h1>
+			</div>
+		 </div>
+
+
+	</main>
 </body>
 </html>
