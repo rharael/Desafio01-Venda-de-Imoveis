@@ -8,11 +8,13 @@
 	text-decoration: none;
 }
 
+/* Font style */
 body, input, button{
 	font-family: Poppins, sans-serif;
 	font-style: normal;
 }
 
+/* Header style*/
 header{
 	background-color: #1E1E1E;
 	padding-top: 10px;
@@ -45,6 +47,7 @@ header{
 	font-size: 24px;
 }
 
+/* Main block */
 main.container {
 	width: 100%;
 	display: flex;
@@ -52,6 +55,7 @@ main.container {
 	justify-content: center;
 }
 
+/* Login section */
 .login-section{
 	width: 621px;
 	height: 893px;
@@ -140,12 +144,14 @@ main.container {
 	font-weight: 700;
 }
 
+/* Middle division */
 .division{
 	margin: 68px 100px 0px;
 	border: solid 1px #D8D8D8;
 	height: 893px;
 }
 
+/* Image Section */
 .image-section{
 	width: 734px;
 	height: 893px;
@@ -178,6 +184,7 @@ main.container {
 	
 }
 
+/* Mobile responsiviness */
 .mobile-logo{display:none}
 
 @media only screen and (orientation: portrait){
