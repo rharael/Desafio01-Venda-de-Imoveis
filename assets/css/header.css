@@ -1,0 +1,32 @@
+/* Header style*/
+header{
+	background-color: #1E1E1E;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 196px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 47px;
+	height: 47px;
+	top: 32px;
+	left: 218px;
+	margin: 22px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.header-container h3 {
+	color: #FFFFFF;
+	width: 233px;
+	height: 36px;
+	font-size: 24px;
+}
