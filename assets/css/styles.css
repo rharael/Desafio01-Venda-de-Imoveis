@@ -5,9 +5,10 @@
 	vertical-align:baseline;
 	list-style:none;
 	border:0;
+	text-decoration: none;
 }
 
-body{
+body, input, button{
 	font-family: Poppins, sans-serif;
 	font-style: normal;
 }
@@ -59,31 +60,28 @@ main.container {
 	justify-content: center;
 	align-items: center;
 	border-radius: 29px;
-	/* padding: 20px; */
 	background-color: #FBFBFB;
-
 }
 
 .login-form{
-	width: 80%;
 	display: flex;
 	flex-flow: column;
+	align-items: center;
 }
 
 .h2-container{
+	align-self: flex-start;
 	width: 354px;
 	height: 96px;
 	margin-bottom: 91px;
 }
 
 .login-form h2{
-	margin-bottom: 91px;
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 48px;
 	text-align: left;
 	color: #343434;
-
 }
 
 .input input{
@@ -100,17 +98,19 @@ main.container {
 
 #email{
 	margin-bottom: 32px;
-	margin-left: 13px;
 }
 
 #password{
 	margin-bottom: 10px;
-	margin-left: 13px;
 }
 
 .login-check{
+	align-self: flex-start;
+	margin-left: 8px;
 	margin-bottom: 19px;
-	height: 22.5px;
+	height: 23px;
+	font-size: 15px;
+	color: #E70000;
 }
 
 .submit-btn{
@@ -130,17 +130,18 @@ main.container {
 	width: 468px;
 }
 
-form p{
+.form-text{
 	font-size: 20px;
+	font-weight: 400;
 }
 
-form p a{
+.form-text a{
 	color:#FE8100;
-	;
+	font-weight: 700;
 }
 
 .division{
-	margin: 68px 100px;
+	margin: 68px 100px 0px;
 	border: solid 1px #D8D8D8;
 	height: 893px;
 }
@@ -167,7 +168,6 @@ form p a{
 	top: 100px;
 	left: 38px;
 	text-align: left;
-	/* padding-left: 5px; */
 }
 .image-text h1{
 	color: #E9ECF2;
