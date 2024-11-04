@@ -1,0 +1,40 @@
+.sec-op{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.properties-container{
+	width: 1291px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.property-card{
+	width: 331px;
+	margin: 0px 0px 50px;
+}
+
+.property-card img{
+	width: 292px;
+	height: 197px;
+	border-radius: 12px;
+}
+
+.rooms{
+	display: flex;
+	flex-flow: row
+}
+.bedroms, .bathrooms {
+	height: 29px;
+	margin: 0px 5px;
+	padding: 0px 6px;
+	border-radius: 8px;
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	color: #E9ECF2;
+	background: #FE8100;
+}
