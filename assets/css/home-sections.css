@@ -1,45 +1,63 @@
+main{
+	margin-top: 79px;
+}
+
 .sec-services{
 	width: 100%;
+	margin-bottom: 25px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* justify-content: center; */
 }
 
-.sec-services h2{
+.h2-container{
+	width: 1330px;
+	margin-bottom: 25px;
+}
+
+h2{
 	font-size: 36px;
 	font-weight: 400;
 	color: #343434;
-
 }
 
 .service-container{
-	width: 1900px;
+	width: 1330px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
-
 
 .service {
 	display: inline-block;
 	text-align: center;
-	margin: 20px;
-  }
+}
 
 .serv-img{
 	width: 246px;
 	height: 246px;
 	overflow: hidden;
 	border-radius: 50%;
-	background-color: #FE8100;
 }
 
 .serv-img img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+/* a { color: inherit; } */
+.serv-name{
+	font-size: 24px;
+	font-weight: 400;
+	color: #343434;
+}
+
+.serv-offers{
+	font-size: 16px;
+	font-weight: 400;
+	color: #848383;
 }
 
 .sec-op{
@@ -49,7 +67,7 @@
 }
 
 .properties-container{
-	width: 1291px;
+	width: 1330px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
