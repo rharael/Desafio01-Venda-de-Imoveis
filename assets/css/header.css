@@ -68,3 +68,18 @@ header{
 	width: 1728px;
 	height: 878px;
 }
+
+.header-img-text{
+	width: 740px;
+	height: 150;
+	position: absolute;
+	top: 328px;
+	left: 220px;
+}
+
+.header-img-text h1{
+	font-weight: 600;
+	font-size: 50px;
+	text-align: left;
+	color: #3C3C3C;
+}

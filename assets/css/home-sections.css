@@ -13,7 +13,7 @@
 
 .property-card{
 	width: 331px;
-	margin: 0px 0px 50px;
+	margin-bottom: 50px;
 }
 
 .property-card img{
@@ -24,17 +24,22 @@
 
 .rooms{
 	display: flex;
-	flex-flow: row
+	flex-flow: row;
 }
-.bedroms, .bathrooms {
+
+.bedroms, .bathrooms{
 	height: 29px;
-	margin: 0px 5px;
+	margin-right: 25px;
 	padding: 0px 6px;
 	border-radius: 8px;
+	background: #FE8100;
+	text-align: center;
+}
+
+.bedroms p, .bathrooms p{
 	font-family: Inter;
 	font-size: 15px;
 	font-weight: 400;
-	text-align: center;
+	line-height: 27px;
 	color: #E9ECF2;
-	background: #FE8100;
 }
